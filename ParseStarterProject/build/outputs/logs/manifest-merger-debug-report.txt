@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\a3da8d41b3ed412ca7a181946d074225\multidex-1.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\2a93d76e70c32c297c0890054a2f63f8\play-services-12.0.1\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:2:1-14:12
@@ -11,7 +11,9 @@ MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\shash\.g
 MERGED from [com.android.support:mediarouter-v7:26.1.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bbf07aa1da9ab954374e693dfcc335b9\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:10:1-24:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\967e8d778145ef395ac0dc868ec88b33\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\c8390c608d9ebd3960e8c9af3469d9e0\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\a8e7153660f0642982a76d40bd652b71\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eef2c050209c2cd546e745be92baa838\play-services-ads-12.0.1\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:17:1-47:12
@@ -85,10 +87,10 @@ MERGED from [com.android.support:documentfile:28.0.0] C:\Users\shash\.gradle\cac
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\7f3ed6ce49569e0dbf9accf24b63a15b\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\707c6356496c3791d321c055fe777af8\print-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\426821499609b124edd91485548e30d0\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\62c0832fb40ee5eb25165ef8a17bfa4a\play-services-ads-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\cdbda43842a7d13423b47dbf1d9a236b\play-services-ads-lite-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\6ae573d16ff5329ebe27fa3d9c6635b4\play-services-analytics-license-12.0.1\AndroidManifest.xml:17:1-24:12
@@ -139,25 +141,25 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] 
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bae432cbada07541cd6c4082a2494f4d\play-services-vision-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\9cd4549cae81250c8ec240070157fe1e\play-services-wallet-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\a1d14cc156a29acea1b019d02dc4693e\play-services-wearable-license-12.0.1\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 		INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\2a93d76e70c32c297c0890054a2f63f8\play-services-12.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\2a93d76e70c32c297c0890054a2f63f8\play-services-12.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:7:5-12:19
@@ -361,7 +363,7 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:9-41
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:9-38
 	android:icon
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
@@ -370,36 +372,32 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:9-40
 	android:name
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:6:9-43
-activity#com.parse.starter.mainPageActivity
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:9-63
+activity#com.parse.starter.userfeedActivity
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:9-54
 	android:name
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:19-51
-activity#com.parse.starter.userfeedActivity
+activity#com.parse.starter.userListActivity
 ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:9-54
 	android:name
 		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:19-51
-activity#com.parse.starter.userListActivity
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:9-54
-	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:19-51
-activity#com.parse.starter.MainActivity
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:9-22:20
+activity#com.parse.starter.mainPageActivity
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:9-21:20
 	android:label
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:13-45
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:13-42
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:13-41
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:17-69
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:25-66
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:17-77
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:27-74
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:27-74
 uses-permission#android.permission.INTERNET
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:5-67
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:5-67
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:19:5-67
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:19:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:23:5-67
@@ -427,9 +425,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\shash\
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:22-64
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:5-79
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:5-79
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:20:5-79
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:20:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:24:5-79
@@ -451,15 +449,15 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\shash\
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:22-76
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:5-80
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:5-80
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:22-77
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:22-77
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:5-79
+ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:22-76
+		ADDED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:22-76
 uses-sdk
 INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\Projects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
@@ -478,8 +476,12 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\shash\.gradle\cac
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\bbf07aa1da9ab954374e693dfcc335b9\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:15:5-17:41
 MERGED from [com.parse:parse-android:1.17.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eb32eca5d39604062bb11aa948db52ac\parse-android-1.17.3\AndroidManifest.xml:15:5-17:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\967e8d778145ef395ac0dc868ec88b33\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\967e8d778145ef395ac0dc868ec88b33\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\c8390c608d9ebd3960e8c9af3469d9e0\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\c8390c608d9ebd3960e8c9af3469d9e0\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\a8e7153660f0642982a76d40bd652b71\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\a8e7153660f0642982a76d40bd652b71\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eef2c050209c2cd546e745be92baa838\play-services-ads-12.0.1\AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\eef2c050209c2cd546e745be92baa838\play-services-ads-12.0.1\AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:20:5-44
@@ -626,14 +628,14 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\shash\.gradle\caches\tra
 MERGED from [com.android.support:print:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\707c6356496c3791d321c055fe777af8\print-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\426821499609b124edd91485548e30d0\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\426821499609b124edd91485548e30d0\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\62c0832fb40ee5eb25165ef8a17bfa4a\play-services-ads-license-12.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\62c0832fb40ee5eb25165ef8a17bfa4a\play-services-ads-license-12.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\shash\.gradle\caches\transforms-2\files-2.1\cdbda43842a7d13423b47dbf1d9a236b\play-services-ads-lite-license-12.0.1\AndroidManifest.xml:20:5-44

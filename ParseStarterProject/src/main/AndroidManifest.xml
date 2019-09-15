@@ -6,14 +6,13 @@
         android:name=".StarterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="InstaMiliGram"
         android:theme="@style/AppTheme">
-        <activity android:name=".mainPageActivity"></activity>
         <activity android:name=".userfeedActivity" />
         <activity android:name=".userListActivity" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:name=".mainPageActivity"
+            android:label="InstaMiliGram">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
