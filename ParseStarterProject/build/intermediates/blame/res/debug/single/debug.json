@@ -140,12 +140,12 @@
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\bbf07aa1da9ab954374e693dfcc335b9\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_18_light.png.flat",
-        "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\b174f1a03dcc1ad85890f48cc039f572\\mediarouter-v7-26.1.0\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_18_light.png"
-    },
-    {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\bbf07aa1da9ab954374e693dfcc335b9\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_18_light.png.flat",
+        "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\b174f1a03dcc1ad85890f48cc039f572\\mediarouter-v7-26.1.0\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_18_light.png"
     },
     {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
@@ -346,6 +346,10 @@
     {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\bbf07aa1da9ab954374e693dfcc335b9\\appcompat-v7-28.0.0\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_instalogo.png.flat",
+        "source": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\instalogo.png"
     },
     {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_audiotrack_dark.png.flat",
@@ -2624,6 +2628,10 @@
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\bbf07aa1da9ab954374e693dfcc335b9\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_login_signup.xml.flat",
+        "source": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\login_signup.xml"
+    },
+    {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_audiotrack_dark.png.flat",
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\b174f1a03dcc1ad85890f48cc039f572\\mediarouter-v7-26.1.0\\res\\drawable-mdpi-v4\\ic_audiotrack_dark.png"
     },
@@ -3600,6 +3608,10 @@
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\bbf07aa1da9ab954374e693dfcc335b9\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_page.xml.flat",
+        "source": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_main_page.xml"
+    },
+    {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_quantum_ic_forward_30_grey600_36.png.flat",
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\4d1ae63c04feb3bbc79cdc01d8c52fda\\play-services-cast-framework-12.0.1\\res\\drawable-xxhdpi-v4\\quantum_ic_forward_30_grey600_36.png"
     },
@@ -3810,6 +3822,10 @@
     {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_04_light.png.flat",
         "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\b174f1a03dcc1ad85890f48cc039f572\\mediarouter-v7-26.1.0\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_04_light.png"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_instawritten.png.flat",
+        "source": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\instawritten.png"
     },
     {
         "merged": "E:\\Android\\Projects\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_mr_button_disconnected_light.png.flat",

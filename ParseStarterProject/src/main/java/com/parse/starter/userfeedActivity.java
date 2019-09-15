@@ -1,14 +1,18 @@
 package com.parse.starter;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.GetDataCallback;
@@ -16,8 +20,11 @@ import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 import java.util.List;
+
+import static android.content.DialogInterface.*;
 
 public class userfeedActivity extends AppCompatActivity {
 
@@ -34,7 +41,7 @@ public class userfeedActivity extends AppCompatActivity {
 
         linlayout = findViewById(R.id.linLayout);
 
-        ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Image");
+        final ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Image");
         query.whereEqualTo("username",username);
         query.orderByDescending("createdAt");
         query.findInBackground(new FindCallback<ParseObject>() {
@@ -65,5 +72,28 @@ public class userfeedActivity extends AppCompatActivity {
                 }
             }
         });
+        if(username.equals(ParseUser.getCurrentUser().getUsername()))
+        {
+            linlayout.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v)
+                {
+                    new AlertDialog.Builder(userfeedActivity.this)
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .setTitle("Delete")
+                            .setMessage("You Really Want to delete it ?")
+                            .setPositiveButton("YES", new OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    Toast.makeText(userfeedActivity.this,"Clicked Yes",Toast.LENGTH_SHORT).show();
+
+                                }
+                            })
+                            .setNegativeButton("No",null)
+                            .show();
+                    return false;
+                }
+            });
+        }
     }
 }

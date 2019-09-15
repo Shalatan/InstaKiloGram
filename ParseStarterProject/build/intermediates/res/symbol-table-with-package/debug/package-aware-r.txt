@@ -1100,6 +1100,8 @@ drawable ic_vol_type_speaker_light
 drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
 drawable instagrampic
+drawable instalogo
+drawable instawritten
 drawable mr_button_connected_dark
 drawable mr_button_connected_light
 drawable mr_button_connecting_dark
@@ -1298,6 +1300,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id frontpage_layout
 id gone
 id googleMaterial2
 id google_wallet_classic
@@ -1341,7 +1344,16 @@ id list_item
 id live_stream_indicator
 id live_stream_seek_bar
 id loading_indicator
+id logInButton
+id logInImage
+id logInPassword
+id logInText1
+id logInText2
+id logInText3
 id logInTextView
+id logInToSignUpButton
+id logInUsername
+id login_layout
 id logoImageView
 id logo_only
 id logout
@@ -1436,6 +1448,11 @@ id showCustom
 id showHome
 id showTitle
 id signUpButton
+id signUpEmail
+id signUpImage
+id signUpPassword
+id signUpUsername
+id signup_layout
 id slide
 id spacer
 id split_action_bar
@@ -1527,6 +1544,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main_page
 layout activity_user_list
 layout activity_userfeed
 layout cast_expanded_controller_activity
@@ -1535,6 +1553,7 @@ layout cast_intro_overlay
 layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
+layout login_signup
 layout mr_chooser_dialog
 layout mr_chooser_list_item
 layout mr_controller_material_dialog_b
