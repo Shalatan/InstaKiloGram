@@ -406,19 +406,19 @@ public final class R {
         public static final int email = 0x7f08006b;
         public static final int end_text = 0x7f08006e;
         public static final int expanded_controller_layout = 0x7f080070;
-        public static final int googleMaterial2 = 0x7f080078;
-        public static final int google_wallet_classic = 0x7f080079;
-        public static final int google_wallet_grayscale = 0x7f08007a;
-        public static final int google_wallet_monochrome = 0x7f08007b;
-        public static final int grayscale = 0x7f08007c;
-        public static final int holo_dark = 0x7f08007f;
-        public static final int holo_light = 0x7f080080;
-        public static final int html = 0x7f080083;
-        public static final int hybrid = 0x7f080084;
-        public static final int icon_only = 0x7f080087;
-        public static final int icon_uri = 0x7f080088;
-        public static final int icon_view = 0x7f080089;
-        public static final int index_entity_types = 0x7f08008c;
+        public static final int googleMaterial2 = 0x7f080077;
+        public static final int google_wallet_classic = 0x7f080078;
+        public static final int google_wallet_grayscale = 0x7f080079;
+        public static final int google_wallet_monochrome = 0x7f08007a;
+        public static final int grayscale = 0x7f08007b;
+        public static final int holo_dark = 0x7f08007e;
+        public static final int holo_light = 0x7f08007f;
+        public static final int html = 0x7f080082;
+        public static final int hybrid = 0x7f080083;
+        public static final int icon_only = 0x7f080086;
+        public static final int icon_uri = 0x7f080087;
+        public static final int icon_view = 0x7f080088;
+        public static final int index_entity_types = 0x7f08008b;
         public static final int instant_message = 0x7f08008e;
         public static final int intent_action = 0x7f08008f;
         public static final int intent_activity = 0x7f080090;
@@ -448,35 +448,35 @@ public final class R {
         public static final int place_autocomplete_search_input = 0x7f0800e2;
         public static final int place_autocomplete_separator = 0x7f0800e3;
         public static final int plain = 0x7f0800e4;
-        public static final int production = 0x7f0800e5;
-        public static final int progressBar = 0x7f0800e6;
-        public static final int radio = 0x7f0800e9;
-        public static final int rfc822 = 0x7f0800ea;
-        public static final int sandbox = 0x7f0800ee;
-        public static final int satellite = 0x7f0800ef;
-        public static final int seek_bar = 0x7f0800fe;
-        public static final int seek_bar_controls = 0x7f0800ff;
-        public static final int selectionDetails = 0x7f080101;
-        public static final int slide = 0x7f080110;
-        public static final int standard = 0x7f080118;
-        public static final int start_text = 0x7f08011a;
-        public static final int status_text = 0x7f08011c;
-        public static final int strict_sandbox = 0x7f08011d;
-        public static final int subtitle_view = 0x7f080120;
-        public static final int tab_host = 0x7f080122;
-        public static final int terrain = 0x7f080126;
-        public static final int test = 0x7f080127;
-        public static final int text = 0x7f080128;
-        public static final int text1 = 0x7f080129;
-        public static final int text2 = 0x7f08012a;
-        public static final int textTitle = 0x7f08012d;
-        public static final int text_list_view = 0x7f08012e;
-        public static final int thing_proto = 0x7f08012f;
-        public static final int title_view = 0x7f080134;
-        public static final int toolbar = 0x7f080135;
-        public static final int url = 0x7f08013a;
-        public static final int wide = 0x7f08013d;
-        public static final int wrap_content = 0x7f080140;
+        public static final int production = 0x7f0800e8;
+        public static final int progressBar = 0x7f0800e9;
+        public static final int radio = 0x7f0800ec;
+        public static final int rfc822 = 0x7f0800ed;
+        public static final int sandbox = 0x7f0800f1;
+        public static final int satellite = 0x7f0800f2;
+        public static final int seek_bar = 0x7f080101;
+        public static final int seek_bar_controls = 0x7f080102;
+        public static final int selectionDetails = 0x7f080104;
+        public static final int slide = 0x7f080113;
+        public static final int standard = 0x7f08011b;
+        public static final int start_text = 0x7f08011d;
+        public static final int status_text = 0x7f08011f;
+        public static final int strict_sandbox = 0x7f080120;
+        public static final int subtitle_view = 0x7f080123;
+        public static final int tab_host = 0x7f080125;
+        public static final int terrain = 0x7f080129;
+        public static final int test = 0x7f08012a;
+        public static final int text = 0x7f08012b;
+        public static final int text1 = 0x7f08012c;
+        public static final int text2 = 0x7f08012d;
+        public static final int textTitle = 0x7f080130;
+        public static final int text_list_view = 0x7f080131;
+        public static final int thing_proto = 0x7f080132;
+        public static final int title_view = 0x7f080137;
+        public static final int toolbar = 0x7f080138;
+        public static final int url = 0x7f080141;
+        public static final int wide = 0x7f080144;
+        public static final int wrap_content = 0x7f080147;
     }
     public static final class integer {
         private integer() {}
@@ -487,17 +487,17 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int cast_expanded_controller_activity = 0x7f0b001f;
-        public static final int cast_help_text = 0x7f0b0020;
-        public static final int cast_intro_overlay = 0x7f0b0021;
-        public static final int cast_mini_controller = 0x7f0b0022;
-        public static final int cast_tracks_chooser_dialog_layout = 0x7f0b0023;
-        public static final int cast_tracks_chooser_dialog_row_layout = 0x7f0b0024;
-        public static final int place_autocomplete_fragment = 0x7f0b003b;
-        public static final int place_autocomplete_item_powered_by_google = 0x7f0b003c;
-        public static final int place_autocomplete_item_prediction = 0x7f0b003d;
-        public static final int place_autocomplete_progress = 0x7f0b003e;
-        public static final int wallet_test_layout = 0x7f0b0043;
+        public static final int cast_expanded_controller_activity = 0x7f0b0021;
+        public static final int cast_help_text = 0x7f0b0022;
+        public static final int cast_intro_overlay = 0x7f0b0023;
+        public static final int cast_mini_controller = 0x7f0b0024;
+        public static final int cast_tracks_chooser_dialog_layout = 0x7f0b0025;
+        public static final int cast_tracks_chooser_dialog_row_layout = 0x7f0b0026;
+        public static final int place_autocomplete_fragment = 0x7f0b003d;
+        public static final int place_autocomplete_item_powered_by_google = 0x7f0b003e;
+        public static final int place_autocomplete_item_prediction = 0x7f0b003f;
+        public static final int place_autocomplete_progress = 0x7f0b0040;
+        public static final int wallet_test_layout = 0x7f0b0045;
     }
     public static final class string {
         private string() {}

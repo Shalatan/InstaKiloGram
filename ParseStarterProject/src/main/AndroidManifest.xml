@@ -8,6 +8,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="InstaMiliGram"
         android:theme="@style/AppTheme">
+        <activity android:name=".allUserFeedActivity"></activity>
+        <activity android:name=".postUploadActivity" />
+        <activity android:name=".newUserFeedActivity" />
         <activity android:name=".userfeedActivity" />
         <activity android:name=".userListActivity" />
         <activity

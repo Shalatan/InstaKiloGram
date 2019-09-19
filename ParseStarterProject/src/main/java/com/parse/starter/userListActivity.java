@@ -111,7 +111,9 @@ public class userListActivity extends AppCompatActivity {
             }
             else
             {
-                getPhoto();
+                //getPhoto();
+                Intent intent = new Intent(getApplicationContext(),postUploadActivity.class);
+                startActivity(intent);
             }
         }
         else if(item.getItemId() == R.id.logout)

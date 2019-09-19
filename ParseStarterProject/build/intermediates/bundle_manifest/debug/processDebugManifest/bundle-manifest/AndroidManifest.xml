@@ -34,8 +34,10 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="InstaMiliGram"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.parse.starter.allUserFeedActivity" />
+        <activity android:name="com.parse.starter.postUploadActivity" />
+        <activity android:name="com.parse.starter.newUserFeedActivity" />
         <activity android:name="com.parse.starter.userfeedActivity" />
         <activity android:name="com.parse.starter.userListActivity" />
         <activity

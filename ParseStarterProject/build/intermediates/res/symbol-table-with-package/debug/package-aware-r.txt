@@ -1215,6 +1215,7 @@ drawable quantum_ic_volume_up_grey600_36
 drawable quantum_ic_volume_up_white_36
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable uploadimage
 id ALT
 id CTRL
 id FUNCTION
@@ -1333,7 +1334,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
-id frontpage_layout
 id gone
 id googleMaterial2
 id google_wallet_classic
@@ -1357,6 +1357,7 @@ id ifRoom
 id image
 id index_entity_types
 id info
+id insta_list
 id instant_message
 id intent_action
 id intent_activity
@@ -1444,6 +1445,9 @@ id place_autocomplete_search_button
 id place_autocomplete_search_input
 id place_autocomplete_separator
 id plain
+id post_caption
+id post_image
+id post_title
 id production
 id progressBar
 id progress_circular
@@ -1529,6 +1533,10 @@ id top
 id topPanel
 id uniform
 id up
+id uploadButton
+id uploadCaption
+id uploadImage
+id uploadTitle
 id url
 id useLogo
 id volume_item_container
@@ -1577,6 +1585,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main_page
+layout activity_new_user_feed
+layout activity_post_upload
 layout activity_user_list
 layout activity_userfeed
 layout cast_expanded_controller_activity
@@ -1585,7 +1595,7 @@ layout cast_intro_overlay
 layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
-layout login_signup
+layout insta_row
 layout mr_chooser_dialog
 layout mr_chooser_list_item
 layout mr_controller_material_dialog_b

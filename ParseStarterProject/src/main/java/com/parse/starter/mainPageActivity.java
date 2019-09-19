@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,7 +17,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
-public class mainPageActivity extends AppCompatActivity {
+public class mainPageActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener{
 
     Button logInButton;
     TextView logInUsername;
@@ -35,7 +36,7 @@ public class mainPageActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /*@Override
+    @Override
     public boolean onKey(View view, int keyCode, KeyEvent keyEvent)
     {
         if(keyCode == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == keyEvent.ACTION_DOWN)
@@ -45,7 +46,17 @@ public class mainPageActivity extends AppCompatActivity {
         return false;
     }
 
-     */
+    @Override
+    public void onClick(View v)
+    {
+        v  = this.getCurrentFocus();
+        if (v != null) {
+            if (v.getId() == R.id.signUpImage || v.getId() == R.id.signUpImage || v.getId() == R.id.signup_layout || v.getId() == R.id.login_layout) {
+                InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), 0);
+            }
+        }
+    }
 
 
     public void logIn(View view)
