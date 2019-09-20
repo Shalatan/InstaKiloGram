@@ -31,6 +31,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1002",
+                        "endLines": "17",
+                        "endColumns": "10",
+                        "endOffsets": "1169"
+                    }
+                },
+                {
                     "source": "C:\\Users\\shash\\.gradle\\caches\\transforms-2\\files-2.1\\b174f1a03dcc1ad85890f48cc039f572\\mediarouter-v7-26.1.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",

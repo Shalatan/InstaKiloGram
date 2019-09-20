@@ -128,6 +128,11 @@ public class userListActivity extends AppCompatActivity {
             intent.putExtra("username",ParseUser.getCurrentUser().getUsername());
             startActivity(intent);
         }
+        else if(item.getItemId() == R.id.checking)
+        {
+            Intent intent = new Intent(getApplicationContext(),allUserFeedActivity.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
     }
 

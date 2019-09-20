@@ -11,11 +11,11 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
+
 
 public class mainPageActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener{
 
@@ -96,7 +96,7 @@ public class mainPageActivity extends AppCompatActivity implements View.OnClickL
                     Toast.makeText(mainPageActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             }
-        });
+        }) ;
     }
 
     public void logInToSignUP (View view)

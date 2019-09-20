@@ -12,4 +12,7 @@
     <item
         android:title="Log Out"
         android:id="@+id/logout"/>
+    <item
+        android:title="Check Check"
+        android:id="@+id/checking"/>
 </menu>
