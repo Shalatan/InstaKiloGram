@@ -1,43 +1,24 @@
 package com.parse.starter;
 
-import android.Manifest;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.net.Uri;
-import android.os.Build;
-import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
-import com.parse.ParseFile;
-import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
-import com.parse.SaveCallback;
 
-import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class userListActivity extends AppCompatActivity {
 
-    public void getPhoto()
+    /* public void getPhoto()
     {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(intent,1);
@@ -92,56 +73,14 @@ public class userListActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.share_menu,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.M)
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.share)
-        {
-            if(checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
-            {
-                requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},1);
-            }
-            else
-            {
-                //getPhoto();
-                Intent intent = new Intent(getApplicationContext(),postUploadActivity.class);
-                startActivity(intent);
-            }
-        }
-        else if(item.getItemId() == R.id.logout)
-        {
-            ParseUser.logOut();
-            Intent intent = new Intent(getApplicationContext(),mainPageActivity.class);
-            startActivity(intent);
-        }
-        else if(item.getItemId() == R.id.myPofile)
-        {
-            Intent intent = new Intent(getApplicationContext(),userfeedActivity.class);
-            intent.putExtra("username",ParseUser.getCurrentUser().getUsername());
-            startActivity(intent);
-        }
-        else if(item.getItemId() == R.id.checking)
-        {
-            Intent intent = new Intent(getApplicationContext(),allUserFeedActivity.class);
-            startActivity(intent);
-        }
-        return super.onOptionsItemSelected(item);
-    }
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_list);
 
-        setTitle("User Feed");
+        setTitle("User List");
 
         final ListView listView = findViewById(R.id.listView);
         final ArrayList<String> usernames = new ArrayList<String>();
@@ -150,7 +89,7 @@ public class userListActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getApplicationContext(),userfeedActivity.class);
+                Intent intent = new Intent(getApplicationContext(), singleUserFeedActivity.class);
                 intent.putExtra("username",usernames.get(position));
                 startActivity(intent);
             }

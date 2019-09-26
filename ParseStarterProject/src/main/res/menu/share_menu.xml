@@ -7,12 +7,12 @@
         android:id="@+id/share"
         app:showAsAction="always"/>
     <item
+        android:title="User's List"
+        android:id="@+id/userList"/>
+    <item
         android:title="My Profile"
         android:id="@+id/myPofile"/>
     <item
         android:title="Log Out"
         android:id="@+id/logout"/>
-    <item
-        android:title="Check Check"
-        android:id="@+id/checking"/>
 </menu>

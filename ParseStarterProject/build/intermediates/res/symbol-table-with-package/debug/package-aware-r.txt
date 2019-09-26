@@ -1646,7 +1646,6 @@ id center_horizontal
 id center_vertical
 id chains
 id checkbox
-id checking
 id chronometer
 id classic
 id clip_horizontal
@@ -1690,10 +1689,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_controller_layout
 id expanded_menu
-id fab_button_1
-id fab_button_2
-id fab_button_3
-id fab_button_4
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1724,7 +1719,6 @@ id ifRoom
 id image
 id index_entity_types
 id info
-id insta_list
 id instant_message
 id intent_action
 id intent_activity
@@ -1941,6 +1935,7 @@ id uploadImage
 id uploadTitle
 id url
 id useLogo
+id userList
 id view_offset_helper
 id visible
 id volume_item_container
@@ -2002,12 +1997,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_all_user_feed
-layout activity_main_page
-layout activity_new_user_feed
+layout activity_login
+layout activity_main_user_feed
 layout activity_post_upload
+layout activity_single_user_feed
 layout activity_user_list
-layout activity_userfeed
 layout cast_expanded_controller_activity
 layout cast_help_text
 layout cast_intro_overlay

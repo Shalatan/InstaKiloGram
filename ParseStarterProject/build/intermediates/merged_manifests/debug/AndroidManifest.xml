@@ -8,10 +8,10 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="24" />
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
@@ -37,13 +37,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.parse.starter.MFabButtons" />
-        <activity android:name="com.parse.starter.allUserFeedActivity" />
         <activity android:name="com.parse.starter.postUploadActivity" />
-        <activity android:name="com.parse.starter.newUserFeedActivity" />
-        <activity android:name="com.parse.starter.userfeedActivity" />
+        <activity android:name="com.parse.starter.mainUserFeedActivity" />
+        <activity android:name="com.parse.starter.singleUserFeedActivity" />
         <activity android:name="com.parse.starter.userListActivity" />
         <activity
-            android:name="com.parse.starter.mainPageActivity"
+            android:name="com.parse.starter.loginActivity"
             android:label="InstaMiliGram" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
