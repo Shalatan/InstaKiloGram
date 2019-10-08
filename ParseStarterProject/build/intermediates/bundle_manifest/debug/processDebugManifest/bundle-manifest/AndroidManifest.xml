@@ -36,6 +36,8 @@
         android:label="InstaMiliGram"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.parse.starter.chatActivity" />
+        <activity android:name="com.parse.starter.messageUserListActivity" />
         <activity android:name="com.parse.starter.MFabButtons" />
         <activity android:name="com.parse.starter.postUploadActivity" />
         <activity android:name="com.parse.starter.mainUserFeedActivity" />
@@ -50,6 +52,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
 

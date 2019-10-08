@@ -55,6 +55,11 @@ public class mainUserFeedActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }
+        else if(item.getItemId() == R.id.message)
+        {
+            Intent intent = new Intent(getApplicationContext(),messageUserListActivity.class);
+            startActivity(intent);
+        }
         else if(item.getItemId() == R.id.myPofile)
         {
             Intent intent = new Intent(getApplicationContext(), singleUserFeedActivity.class);

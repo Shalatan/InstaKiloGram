@@ -62,7 +62,6 @@ public class postUploadActivity extends AppCompatActivity {
         object = new ParseObject("Image");
         object.put("image",file);
         object.put("username", ParseUser.getCurrentUser().getUsername());
-        object.put("title",uploadTitle.getText().toString());
         object.put("caption",uploadCaption.getText().toString());
         object.saveInBackground(new SaveCallback() {
             @Override
@@ -90,6 +89,5 @@ public class postUploadActivity extends AppCompatActivity {
 
         uploadButton = findViewById(R.id.uploadButton);
         uploadCaption = findViewById(R.id.uploadCaption);
-        uploadTitle = findViewById(R.id.uploadTitle);
     }
 }
